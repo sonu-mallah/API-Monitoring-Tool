@@ -2,48 +2,81 @@ API Monitoring Tool
 
 Overview
 
-A Python-based API monitoring tool that checks REST API availability and generates health reports.
+API Monitoring Tool is a Python-based utility that monitors REST API endpoints and generates health reports. The application measures response time, validates JSON responses, categorizes HTTP status codes, and maintains monitoring history for troubleshooting and analysis.
 
 Features
 
-- Monitor API endpoint availability
+- Monitor REST API availability
 - Measure API response time
 - Validate JSON responses
-- Detect API status (UP/DOWN)
+- Detect API health status (UP/DOWN)
+- Categorize HTTP responses
+- Track response size
 - Generate structured JSON reports
-- Maintain monitoring history
+- Maintain historical monitoring logs
 - Handle timeout and connection errors
 
 Technologies Used
 
-- Python
+- Python 3
 - Requests Library
 - JSON
+- Git & GitHub
 
-How to Run
+Project Structure
 
-Install dependencies:
+API-Monitoring-Tool/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 
-pip install -r requirements.txt
+Generated during execution:
 
-Run the application:
+report.json
+history.json
 
-python app.py
+How It Works
 
-Enter a valid API URL when prompted.
+1. User enters an API URL.
+2. The application sends an HTTP GET request.
+3. Response time is measured.
+4. HTTP status code is analyzed.
+5. Response category is determined.
+6. JSON response validation is performed.
+7. API health report is generated.
+8. Monitoring history is stored locally.
 
-Sample Metrics
+Example Metrics
 
+- Timestamp
 - Status Code
+- Response Category
 - Response Time
 - Response Size
 - API Status
-- JSON Validation
-- Timestamp
+- JSON Validation Status
+
+Skills Demonstrated
+
+- Python Programming
+- REST API Integration
+- JSON Processing
+- File Handling
+- Exception Handling
+- Debugging
+- Monitoring & Logging
+- Git Version Control
 
 Future Improvements
 
-- Dashboard UI
 - Multi-API Monitoring
+- Dashboard Visualization
 - Email Alerts
 - Database Storage
+- Scheduled Monitoring
+
+Author
+
+Sonu Mallah
