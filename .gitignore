@@ -1,0 +1,4 @@
+history.json
+reports.json
+__pycache__/
+*.pyc
