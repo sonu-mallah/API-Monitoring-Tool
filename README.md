@@ -1,10 +1,10 @@
-API Monitoring Tool
+# API Monitoring Tool
 
-Overview
+## Overview
 
-API Monitoring Tool is a Python-based utility that monitors REST API endpoints and generates health reports. The application measures response time, validates JSON responses, categorizes HTTP status codes, and maintains monitoring history for troubleshooting and analysis.
+A Python-based monitoring utility that checks REST API availability, measures response time, validates JSON responses, and generates structured health reports.
 
-Features
+## Features
 
 - Monitor REST API availability
 - Measure API response time
@@ -16,67 +16,59 @@ Features
 - Maintain historical monitoring logs
 - Handle timeout and connection errors
 
-Technologies Used
+## Technologies Used
 
 - Python 3
-- Requests Library
+- Requests
 - JSON
 - Git & GitHub
 
-Project Structure
+## Project Structure
 
+```text
 API-Monitoring-Tool/
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 Generated during execution:
 
+```text
 report.json
 history.json
+```
 
-How It Works
+## How It Works
 
-1. User enters an API URL.
-2. The application sends an HTTP GET request.
-3. Response time is measured.
-4. HTTP status code is analyzed.
-5. Response category is determined.
-6. JSON response validation is performed.
-7. API health report is generated.
-8. Monitoring history is stored locally.
+1. User enters an API URL
+2. Application sends an HTTP GET request
+3. Response time is measured
+4. HTTP status code is analyzed
+5. JSON validation is performed
+6. Health report is generated
+7. Monitoring history is stored locally
 
-Example Metrics
-
-- Timestamp
-- Status Code
-- Response Category
-- Response Time
-- Response Size
-- API Status
-- JSON Validation Status
-
-Skills Demonstrated
+## Skills Demonstrated
 
 - Python Programming
-- REST API Integration
+- REST APIs
 - JSON Processing
-- File Handling
 - Exception Handling
+- File Handling
 - Debugging
 - Monitoring & Logging
 - Git Version Control
 
-Future Improvements
+## Future Improvements
 
 - Multi-API Monitoring
-- Dashboard Visualization
 - Email Alerts
+- Dashboard Visualization
 - Database Storage
-- Scheduled Monitoring
 
-Author
+## Author
 
 Sonu Mallah
